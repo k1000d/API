@@ -19,5 +19,8 @@ request.onload = function () {
   }
   
 }
+function cambiarFondo(){
+  document.getElementById("body").body.style.backgroundColor = "blue"
+}
 
 request.send()
