@@ -1,10 +1,162 @@
-#root {
-    max-width: 1200px;
-    margin: 0 auto;
+
+  
+  body {
+    background-color: rgb(193, 251, 255);
+    
+  }
+
+ 
+
+  #img-principal {
+  
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    
+    
   }
   
-  .body {
-    background-color: aqua;
+   #buscador1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+   }
+    
+   
+    
+    
+    
+  
+  h4 {border-radius: 50px;
+    background-color: white;
+    color: turquoise;
+    text-decoration: none;
+    padding: 5px;
+    float: right;
+    border-radius: 5px;
+    
+   }
+
+
+  #imagenes{
+    display: flex;
+    overflow:hidden;
+    border-radius: 40px;
+    background-color: rgb(242, 246, 247);
+    flex-direction:wrap;
+    
+    
+    
+    
+   
   }
-  
-  
+
+  .imagen1{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen2{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen3{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen4{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen5{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen6{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen7{
+    widows: 400px;
+    height: 400px;
+    padding: 10px;
+  }
+  .imagen8{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen9{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen10{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen11{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen12{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen13{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen14{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen15{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen16{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen17{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen18{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+  .imagen51{
+    widows: 400px;
+    height: 400px;
+    padding: 19px;
+  }
+
+
+
+   #movie-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    
+    
+    
+}

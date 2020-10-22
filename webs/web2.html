@@ -6,27 +6,64 @@
     <title>Document</title>
     
     <link href="web2.css" rel="stylesheet" />
+    
 </head>
 
 <body id="body">
     
 <header>
     <div id="titulo">
-        <h1>Studio Ghibli api</h1>
-        <div id="img-titulo">
+      
+        <div id="img-principal">
         <img src="https://upload.wikimedia.org/wikipedia/de/thumb/2/2e/Studio_Ghibli_Logo.svg/1920px-Studio_Ghibli_Logo.svg.png" 
-        alt="iconoghibli" width="900"height="600">
+        alt="iconoghibli"width="510" height="300" >
         </div>
-    
+        <div id="buscador1">
+            <select id="opciones">
+                    <option  value="1"></option> 
+                    <option id= movie value="2">about movies</option> 
+                    <option id = more value="3">more</option>
+                  </select>
+                  <button onclick="buscar()" >SEARCH/検索する</button>
+            </select>
+        
+        </div>
+    </div>
     </div>
     
     
 </header>
 
 <main>
+    <div id="imagenes">
+        <div>
+        <img id="uno"  class="imagen1" src="https://images-na.ssl-images-amazon.com/images/I/81bxTPiED1L.jpg" alt="1" onclick="window.open(this.src)">
+        <img class= "imagen2" src="https://www.reelviews.net/resources/img/posters/thumbs/grave_poster.jpg" alt="2" onclick="window.open(this.src)">
+        <img class= "imagen3" src="https://images-na.ssl-images-amazon.com/images/I/81UbyXk3DAL._SL1500_.jpg" alt="1" onclick="window.open(this.src)">
+        <img class="imagen4"  src="https://images-na.ssl-images-amazon.com/images/I/61IUCRK4t6L._SY445_.jpg" alt="3" onclick="window.open(this.src)">
+        <img class=" imagen5" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/46/OYpost.jpg/220px-OYpost.jpg" onclick="window.open(this.src)">
+        <img class=" imagen51" src="https://vignette.wikia.nocookie.net/doblaje/images/1/1d/Porco_Rosso_Portada.jpg/revision/latest/top-crop/width/360/height/450?cb=20200301112423&path-prefix=es" onclick="window.open(this.src)">
+        <img class=" imagen6" src="https://images-na.ssl-images-amazon.com/images/I/71Cl-PQhhCL._SY550_.jpg" onclick="window.open(this.src)">
+        <img class=" imagen7" src="https://lh3.googleusercontent.com/NkUdfmDfUBHXhwowxqaG-ejsIcYOnWg-QdzhjqTEelikBqVYKIeuI05Q45mcJfiJDNV8s7NxnGDW3Ks9thcl" onclick="window.open(this.src)">
+        <img class=" imagen8" src="https://target.scene7.com/is/image/Target/GUEST_a7c82256-5823-4fca-9734-55d02e83d2e8?wid=488&hei=488&fmt=pjpeg" onclick="window.open(this.src)">
+        <img class=" imagen9" src="https://i1.wp.com/thewellredmage.com/wp-content/uploads/2016/12/the-cat-returns-52e92d4943d15.jpg?resize=499%2C712&ssl=1" onclick="window.open(this.src)">
+        <img class=" imagen10" src="https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png" onclick="window.open(this.src)">
+        <img class=" imagen11" src="https://upload.wikimedia.org/wikipedia/en/a/a0/Howls-moving-castleposter.jpg" onclick="window.open(this.src)">
+        <img class=" imagen12" src="https://upload.wikimedia.org/wikipedia/en/e/e5/Gedo6sn.jpg">
+        <img class=" imagen13" src="https://lh3.googleusercontent.com/HPSYa37fHLN2Ojlc5o-gqnjGjYeX_-ycWdFmYUSSjyHAO6P8ltiETzyU_Y5xC_pfB45KqlixXpx_t8sDYQ" onclick="window.open(this.src)">
+        <img class=" imagen14" src="https://pics.filmaffinity.com/karigurashi_no_arietti-356171620-large.jpg" onclick="window.open(this.src)">
+        <img class=" imagen15" src="https://images-na.ssl-images-amazon.com/images/I/81JVKziDNAL._SL1500_.jpg" onclick="window.open(this.src)">
+        <img class=" imagen16" src="https://images-na.ssl-images-amazon.com/images/I/51fA8CdeHPL.jpg" onclick="window.open(this.src)">
+        <img class=" imagen17" src="https://upload.wikimedia.org/wikipedia/en/6/68/The_Tale_of_the_Princess_Kaguya_%28poster%29.jpg" onclick="window.open(this.src)">
+        <img class=" imagen18" src="https://m.media-amazon.com/images/M/MV5BZTlmYTJmMWEtNDRhNy00ODc1LTg2OTMtMjk2ODJhNTA4YTE1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" onclick="window.open(this.src)">
+        </div>
+    </div>
     <script src="web2.js"></script>
     <div id="root"></div>
-    <div id="movie-detail"></div>
+
+    <div id="movie-detail" ></div>
+    <div id="deepai.min.NkUdfmDfUBHXhwowxqaG-ejsIcYOnWg-QdzhjqTEelikBqVYKIeuI05Q45mcJfiJDNV8s7NxnGDW3Ks9thcl.js"></div>
+
     
 </main>
 
